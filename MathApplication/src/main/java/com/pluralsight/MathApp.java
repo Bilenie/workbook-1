@@ -58,7 +58,7 @@ public class MathApp {
 
          /*
        5. Find and display the distance between the points (5, 10) and (85, 50)
-         */
+        square root sign over all this (x2-x1)** + (y2-y1)** is the basic formula without using Math Java function. S*/
         int x1 = 5, y1 = 10;
         int x2 = 85, y2 = 50;
 
@@ -83,8 +83,11 @@ public class MathApp {
         int highestNumber = Math.max(num1, num2);
         int lowestNumber = Math.min(num1, num2);
 
-        //(highestNumber - lowestNumber) gives the range (how many numbers are between them).
-        //. + lowestNumber This shifts the random number up so it starts at lowestNumber instead of 0.
+        /* (highestNumber - lowestNumber) gives the range (how many numbers are between them).
+        . + lowestNumber This shifts the random number up so it starts at lowestNumber instead of 0.
+        I made things complicated but in class we did just Math.random(). The formula it self give random number between
+        0 and 1. */
+
 
         double result = Math.random() * (highestNumber-lowestNumber) + lowestNumber;
 
