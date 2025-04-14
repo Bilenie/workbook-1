@@ -16,7 +16,12 @@ public class BasicCalculator {
 
         myScanner.nextLine();
 
-        System.out.println("Do you want to add, subtract , multiply or divide the two numbers?");
+        System.out.println("(A)add");
+        System.out.println("(S)subtract");
+        System.out.println("(M) multiply");
+        System.out.println("(D)divide");
+        System.out.println("Please select an option?");
+
         String choice = myScanner.nextLine();
 
         System.out.println("Great!!!");
