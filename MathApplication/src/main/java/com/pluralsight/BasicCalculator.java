@@ -24,6 +24,7 @@ public class BasicCalculator {
 
         String choice = myScanner.nextLine();
 
+// if statement here so that we can give option
         System.out.println("Great!!!");
 
         float sum = multiplyNumber (anyNumber, anyNumbers);
